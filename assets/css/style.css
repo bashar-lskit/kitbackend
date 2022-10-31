@@ -53,3 +53,10 @@ a {
 }
 
 /* new */
+.arrow-img {
+	position: absolute;
+	top: 50px;
+	width: 100px;
+	left: 100%;
+	transform: translateX(-50px);
+}

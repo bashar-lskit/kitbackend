@@ -544,6 +544,12 @@
                         'type'        => 'media',
                         'title'        => 'Process Card Icon',
                     ),
+                    array(
+                        'id' => 'process_card_arrow',
+                        'type' => 'media',
+                        'title' => __( 'Process Card Arrow', 'lskit'),
+                        'url' => true,
+                    ),
                 )
             ),
         )
