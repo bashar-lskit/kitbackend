@@ -61,6 +61,10 @@ body{
 ********* from old code
 */
 
+.slide{
+    height:400px;
+}
+
 .doc-search{
     width: 50%;
 }
@@ -2364,6 +2368,9 @@ footer{
     }
     p{
         font-size: 15pxs;
+    }
+    .slide{
+        height: 350px;
     }
   }
 
