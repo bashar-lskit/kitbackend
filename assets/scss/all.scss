@@ -267,7 +267,6 @@ body{
   }
   
   .avatar {
-    min-width: 80px;
     width: 100px;
   }
   
@@ -670,16 +669,6 @@ footer{
 */ 
 
 .banner{
-    background-image:linear-gradient(rgba(68, 66, 66, 0.5),rgba(160, 149, 149, 0.5)), url(/assets/img/blog-banner.jpg);
-    height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     color: $whiteColor;
 
     h2{
