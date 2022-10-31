@@ -52,7 +52,10 @@ body{
     margin: 70px 0;
 }
 
-
+.sr-border{
+    border-right: 0.4px solid #E8E8E8;
+    
+}
 
 /* 
 ********* from old code
@@ -89,7 +92,8 @@ body{
   
   /* banner area */
   .header-title-xl {
-    font-size: $seventy;
+    font-size: 65px;
+    line-height: 60px;
   }
   
   .title {
@@ -122,11 +126,14 @@ body{
     margin-bottom: $fifty;
   }
   
-  .fs-28 {
+  .study {
     font-size: 28px;
     color: $dark;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 600; 
+  }
+  .s-arrow{
+    width: 40px;
   }
   
   /* counter */
@@ -196,9 +203,9 @@ body{
   }
   
   /* working process */
-  form input {
-    height: 55px;
-  }
+//   form input {
+//     height: 55px;
+//   }
   
   /* figure */
   .fs-50 {
@@ -542,8 +549,6 @@ footer{
             weight:$fontWSM;
             size: 16px;
         }
-        line-height: 21px;
-        padding: 10px 0px;
         text-align: center;
     }
 
@@ -555,6 +560,7 @@ footer{
                 size: 14px;
             }
             line-height: 16px;
+            margin: 0;
 
         }
 
@@ -592,7 +598,7 @@ footer{
             @extend .customBtn;
             display: block;
             text-align: center;
-            margin: 20px 0;
+            margin: 10px 0;
         }
     }
 
@@ -638,6 +644,7 @@ footer{
             size: 19px;
         }
         line-height: 24px;
+        margin-bottom: 5px;
     }
 
     p{
@@ -2202,6 +2209,27 @@ footer{
         padding-left: 40px;
     }
     
+}
+
+@media only screen and (min-width: 992px){
+    .sr-col:nth-child(3) .sr-border{
+        border-right: none;
+    }
+    .sr-col:nth-child(6) .sr-border{
+        border-right: none;
+    }
+}
+@media only screen and (max-width:991px) and (min-width: 767px){
+    .sr-col:nth-child(2) .sr-border{
+        border-right: none;
+    }
+    .sr-col:nth-child(4) .sr-border{
+        border-right: none;
+    }
+    .sr-col:nth-child(6) .sr-border{
+        border-right: none;
+    }
+   
 }
 
 

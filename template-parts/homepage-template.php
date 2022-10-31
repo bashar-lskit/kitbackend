@@ -15,7 +15,7 @@ global $redux_demo;
 ?>
 
 <!-- BANNER -->
-<section class="" style="min-height: 90vh">
+<section>
     <div class="text-center">
     <h1 class="header-title-xl header-title-md header-title-xm fw-bold title source main-title">
         <?php echo wp_kses($redux_demo['heading1'],true);?>
@@ -28,15 +28,15 @@ global $redux_demo;
         <?php echo wp_kses($redux_demo['button_text1'],true);?>
     </a>
 
-    <a href="<?php echo wp_kses($redux_demo['button_link2'],true);?>" class="d-block fs-28 roboto study">
-        <?php echo wp_kses($redux_demo['button_text2'],true);?> <img src="<?php echo wp_kses($redux_demo['button_link2_icon']['url'],true);?>" class="img-fluid" alt="icon" />
+    <a href="<?php echo wp_kses($redux_demo['button_link2'],true);?>" class="d-block roboto study">
+        <?php echo wp_kses($redux_demo['button_text2'],true);?> <img src="<?php echo wp_kses($redux_demo['button_link2_icon']['url'],true);?>" class="s-arrow" alt="icon" />
     </a>
     </div>
 </section>
 <!-- BANNER -->
 
 <!-- counter -->
-<section class="counter pb-3 pb-md-5">
+<section class="counter pt-4 pb-3 pb-md-5">
     <div class="container">
     <div class="row">
         <?php 
@@ -85,21 +85,25 @@ global $redux_demo;
 <!-- services -->
 <section class="services py-3 py-md-5 bg-orange">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 px-4 py-2 py-md-4">
-            <h2 class="text-white fw-bold header-title-xl header-title-md header-title-sm"><?php echo wp_kses($redux_demo['service_title'], true);?></h2>
-            <p class="fw-bold text-white"><?php echo wp_kses($redux_demo['service_subtitle'], true);?></p>
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 px-4 py-2 py-md-4 sr-col" >
+                <div class="sr-border">
+                    <h2 class="text-white fw-bold header-title-xl header-title-md header-title-sm"><?php echo wp_kses($redux_demo['service_title'], true);?></h2>
+                    <p class="fw-bold text-white pe-1 pe-lg-2"><?php echo wp_kses($redux_demo['service_subtitle'], true);?></p>
+                </div>
             </div>
 
             <?php 
             $count_num = count($redux_demo['service_card_title']);
             for ($x = 0; $x < $count_num; $x++) { 
             ?>
-            <div class="col-lg-4 col-md-6 px-4 py-2 py-md-4">
-            <h2 class="fw-semibold fs-34 fw-semibold text-white pt-3 mb-2 mb-md-5"><?php echo $redux_demo['service_card_title'][$x];?></h2>
-            <p class="text-white">
-                <?php echo $redux_demo['service_card_des'][$x];?>
-            </p>
+            <div class="col-lg-4 col-md-6 px-4 py-2 py-md-4 sr-col">
+                <div class="sr-border">
+                    <h2 class="fw-semibold fs-34 fw-semibold text-white mb-2 mb-md-5"><?php echo $redux_demo['service_card_title'][$x];?></h2>
+                    <p class="text-white pe-2">
+                        <?php echo $redux_demo['service_card_des'][$x];?>
+                    </p>
+                </div>
             </div>
             <?php } ?>
         </div>

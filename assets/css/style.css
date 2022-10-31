@@ -30,27 +30,24 @@ a {
 
 .form-select {
   border: 0.79058px solid #707070;
-  border-radius: 7.9058px;
   box-shadow: none;
   outline: 0 none;
   padding: 6px 7px;
+  border-radius: 3px;
 }
 .form-select:focus {
   border: 0.79058px solid #707070;
-  border-radius: 7.9058px;
   box-shadow: none;
   outline: 0 none;
 }
 .form-control {
   border: 0.79058px solid #707070;
-  border-radius: 7.9058px;
   box-shadow: none;
   outline: 0 none;
   padding: 10px 7px;
 }
 .form-control:focus {
   border: 0.79058px solid #707070;
-  border-radius: 7.9058px;
   box-shadow: none;
   outline: 0 none;
 }

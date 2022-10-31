@@ -289,3 +289,18 @@ h1,h2,h3,h4,h5{
         color: #0E0E0E;
     }
 }
+
+.sceduleBtn {
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #f15a46;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    &:hover{
+        color: $whiteColor;
+        background-color: $depOrangeColor;
+    }
+}

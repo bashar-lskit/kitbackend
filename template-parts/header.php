@@ -63,7 +63,7 @@ $header_nav_menu = wp_nav_menu( [
 			<img src="assets/icon/close.png" alt="" />
 		</button>
 		</div>
-		<div class="modal-body">
+		<div class="modal-body pt-0">
 		<p class="direction">Fill Out Our Form & We’ll be in Touch Shortly</p>
 
 		<!-- form -->
@@ -73,43 +73,35 @@ $header_nav_menu = wp_nav_menu( [
 			<div class="row">
 				<div class="col-md-6 my-2">
 				<input
-					class="form-control"
+					class="form-control form-control-sm"
 					type="text"
-					name="first-name"
-					id="firstName"
-					placeholder="First Name*"
+					name="name"
+					id="ame"
+					placeholder="Name*"
 				/>
 				</div>
 				<div class="col-md-6 my-2">
-				<input
-					class="form-control"
-					type="text"
-					name="last-name"
-					id="lastName"
-					placeholder="First Name*"
-				/>
+				<input class="form-control form-control-sm" type="email" name="email" id="email" placeholder="Email*" />
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-6 my-2">
-				<input class="form-control" type="email" name="email" id="email" placeholder="Email*" />
+				<input class="form-control form-control-sm" type="tel" name="number" id="number" placeholder="Number*" />
 				</div>
-				<div class="col-md-6 my-2">
-				<input class="form-control" type="tel" name="number" id="number" placeholder="Number*" />
-				</div>
-			</div>
-
-			<div class="row">
 				<div class="col-md-6 my-2">
 				<input
-					class="form-control"
+					class="form-control form-control-sm"
 					type="text"
 					name="company"
 					id="company"
 					placeholder="Company*"
 				/>
 				</div>
+			</div>
+
+			<div class="row">
+				
 				<div class="col-md-6 my-2">
 				<select class="form-select" aria-label="Default select example">
 					<option selected value="0">How did you hear about...</option>
@@ -120,15 +112,15 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 			</div>
 			<div>
-				<h4 class="project-type">Type of Project*</h4>
+				<h4 class="project-type mb-1">Type of Project*</h4>
 				<div class="row">
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="webSite" checked />
 					<label class="form-check-label" for="webSite"> Web site </label>
 					</div>
 				</div>
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="branding" />
 					<label class="form-check-label" for="branding"> Branding </label>
@@ -136,13 +128,13 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="marketing" />
 					<label class="form-check-label" for="marketing"> Marketing Automation </label>
 					</div>
 				</div>
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="mobileApp" />
 					<label class="form-check-label" for="mobileApp"> Mobile App </label>
@@ -150,13 +142,13 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="SEO" />
 					<label class="form-check-label" for="SEO"> SEO Audti </label>
 					</div>
 				</div>
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="socialMedia" />
 					<label class="form-check-label" for="socialMedia"> Social Media </label>
@@ -164,13 +156,13 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="emailMarketing" />
 					<label class="form-check-label" for="emailMarketing"> Email Marketing </label>
 					</div>
 				</div>
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="PPC" />
 					<label class="form-check-label" for="PPC"> PPC </label>
@@ -178,13 +170,13 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="Amazon" />
 					<label class="form-check-label" for="Amazon"> Amazon </label>
 					</div>
 				</div>
-				<div class="col-md-6 my-2">
+				<div class="col-md-6 ">
 					<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="Marketing-Other" />
 					<label class="form-check-label" for="Marketing-Other"> Marketing-Other </label>
@@ -192,7 +184,7 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 				</div>
 
-				<div class="my-3">
+				<div class="mb-1">
 				<div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="confirmation" />
 					<label class="form-check-label" for="confirmation">
@@ -202,12 +194,9 @@ $header_nav_menu = wp_nav_menu( [
 				</div>
 
 				<div>
-				<textarea
-					style="height: 100px"
-					class="form-control"
+				<textarea class="form-control"
 					placeholder="Project Details*"
-					id="floatingTextarea"
-				></textarea>
+					id="floatingTextarea" cols="30" rows="3"></textarea>
 				</div>
 
 				<div class="my-2">

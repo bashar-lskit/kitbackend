@@ -14,7 +14,7 @@ global $redux_demo;
     <div class="container">
     <div class="text-center">
         <h2 class="fs-50 text-white fw-bold"><?php echo wp_kses($redux_demo['meeting_title'], true);?></h2>
-        <a href="<?php echo wp_kses($redux_demo['meeting_btnlink'], true);?>" class="btn btn-light mt-4 py-3 px-5 fs-24 text-orange">
+        <a href="<?php echo wp_kses($redux_demo['meeting_btnlink'], true);?>" class="sceduleBtn">
         <?php echo wp_kses($redux_demo['meeting_btntext'], true);?>
         </a>
     </div>
@@ -36,13 +36,13 @@ global $redux_demo;
                 <div class="col-md-9">
                 <h2 class="fw-bold text-white">We’ve driven over</h2>
                 <div class="d-flex justify-content-between align-items-center mb-5">
-                    <span class="text-orange bg-white">6</span>
-                    <span class="text-orange bg-white">2</span>
-                    <span class="text-orange bg-white">8</span>
-                    <span class="text-orange bg-white">9</span>
-                    <span class="text-orange bg-white">7</span>
-                    <span class="text-orange bg-white">0</span>
-                    <span class="text-orange bg-white">1</span>
+                    <span class="text-orange bg-white count-drive">6</span>
+                    <span class="text-orange bg-white count-drive">2</span>
+                    <span class="text-orange bg-white count-drive">8</span>
+                    <span class="text-orange bg-white count-drive">9</span>
+                    <span class="text-orange bg-white count-drive">7</span>
+                    <span class="text-orange bg-white count-drive">0</span>
+                    <span class="text-orange bg-white count-drive">1</span>
                 </div>
                 <h2 class="fw-bold text-white">Leads for clients.</h2>
                 <p class="text-white fw-bold">Discover how we can help your business grow</p>
@@ -73,30 +73,33 @@ global $redux_demo;
             <div class="card-body p-5 h-100">
             <div>
                 <div class="sliderr">
-                <div class="slide p-4">
-                    <p class="fs-30 text-white fw-semibold mb-5">
-                    LSKIT did everything they said they would do you and did it on time! The whole process
-                    was very easy!
-                    </p>
-                    <p class="fs-40 text-white fw-bold mb-0">CEO</p>
-                    <p class="fs-20 text-white">John</p>
-                </div>
-                <div class="slide p-4">
-                    <p class="fs-30 text-white fw-semibold mb-5">
-                    LSKIT did everything they said they would do you and did it on time! The whole process
-                    was very easy!
-                    </p>
-                    <p class="fs-40 text-white fw-bold mb-0">CEO</p>
-                    <p class="fs-20 text-white">John</p>
-                </div>
-                <div class="slide p-4">
-                    <p class="fs-30 text-white fw-semibold mb-5">
-                    LSKIT did everything they said they would do you and did it on time! The whole process
-                    was very easy!
-                    </p>
-                    <p class="fs-40 text-white fw-bold mb-0">CEO</p>
-                    <p class="fs-20 text-white">John</p>
-                </div>
+                    <div class="slide p-4">
+                        <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT did everything they said they would do you and did it on time! The whole process
+                        was very easy!
+                        </p>
+                        <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                        <p class="fs-20 text-white">John</p>
+                    </div>
+                    
+                    <div class="slide p-4">
+                        <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT is very helpful they would do you and did it on time! The whole process was very
+                        easy!
+                        </p>
+                        <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                        <p class="fs-20 text-white">John</p>
+                    </div>
+                    
+                    <div class="slide p-4">
+                        <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT did everything they said they would do you and did it on time! The whole process
+                        was very easy!
+                        </p>
+                        <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                        <p class="fs-20 text-white">John</p>
+                    </div>
+                    
                 </div>
             </div>
             </div>

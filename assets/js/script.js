@@ -12,6 +12,7 @@
 //   });
 
 $(".count-num").counterUp({ time: 300 });
+$(".count-drive").counterUp({ time: 1000 });
 
 $(".btn-inactive").click(function () {
   $(".btn-inactive").removeClass("active");
@@ -104,8 +105,10 @@ $(".success-slide").slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1000,
-  arrows: false,
+  autoplaySpeed: 0,
+  speed: 8000,
+  pauseOnHover: false,
+  cssEase: "linear",
   responsive: [
     {
       breakpoint: 1024,
