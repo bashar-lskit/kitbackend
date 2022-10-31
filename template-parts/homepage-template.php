@@ -380,12 +380,13 @@ global $redux_demo;
                 $count_num = count($redux_demo['process_card_title']);
                 for ($x = 0; $x < $count_num; $x++) { 
                 ?>
-                <div class="item">
+                <div class="item position-relative">
                     <img src="<?php echo wp_kses($redux_demo['process_card_icon'][$x]['url'], true);?>" class="img-fluid mb-2" alt="" />
                     <h2 class="fs-20 my-3 text-white fw-bold"><?php echo wp_kses($redux_demo['process_card_title'][$x], true);?></h2>
                     <p class="text-white">
                     <?php echo wp_kses($redux_demo['process_card_des'][$x], true);?>
                     </p>
+                    <img src="<?php echo wp_kses($redux_demo['process_card_arrow'][$x]['url'], true);?>" alt="" class="arrow-img">
                 </div>
                 <?php } ?>
             </div>
