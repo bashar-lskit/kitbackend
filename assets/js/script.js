@@ -12,7 +12,7 @@
 //   });
 
 $(".count-num").counterUp({ time: 300 });
-$(".count-drive").counterUp({ time: 1000 });
+// $(".count-drive").counterUp({ time: 1000 });
 
 $(".btn-inactive").click(function () {
   $(".btn-inactive").removeClass("active");
