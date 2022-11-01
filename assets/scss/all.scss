@@ -201,11 +201,6 @@ body {
   font-size: $twelve;
 }
 
-/* working process */
-//   form input {
-//     height: 55px;
-//   }
-
 /* figure */
 .fs-50 {
   font-size: $fifty;
@@ -223,6 +218,10 @@ body {
 .item {
   width: $twentyP;
   padding: $twentyFour;
+}
+
+.p-item:nth-child(5) .arrow-img {
+  display: none;
 }
 
 /* cards */
@@ -2174,6 +2173,9 @@ footer {
     width: 100%;
   }
   .search-btn {
+    display: none;
+  }
+  .arrow-img {
     display: none;
   }
 }
