@@ -29,34 +29,59 @@ a {
 }
 
 .form-select {
-  border: 0.79058px solid #707070;
+  border: 0.79058px solid #cfcfcf;
   box-shadow: none;
   outline: 0 none;
   padding: 6px 7px;
   border-radius: 3px;
 }
 .form-select:focus {
-  border: 0.79058px solid #707070;
+  border: 0.79058px solid #cfcfcf;
   box-shadow: none;
   outline: 0 none;
 }
 .form-control {
-  border: 0.79058px solid #707070;
+  border: 0.79058px solid #cfcfcf;
   box-shadow: none;
   outline: 0 none;
   padding: 10px 7px;
 }
 .form-control:focus {
-  border: 0.79058px solid #707070;
+  border: 0.79058px solid #cfcfcf;
   box-shadow: none;
   outline: 0 none;
 }
 
 /* new */
 .arrow-img {
-	position: absolute;
-	top: 50px;
-	width: 100px;
-	left: 100%;
-	transform: translateX(-50px);
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  left: 100%;
+  transform: translateX(-50px);
+}
+
+/* .sbl-search {
+  background: #f15a46;
+  color: #fff;
+}
+.sbl-search:hover {
+  background: #f15a46;
+} */
+
+.btn-sbl-search {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f15a46;
+  --bs-btn-border-color: #f15a46;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f15a46;
+  --bs-btn-hover-border-color: #f15a46;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f15a46;
+  --bs-btn-active-border-color: #f15a46;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #f15a46;
+  --bs-btn-disabled-border-color: #f15a46;
 }

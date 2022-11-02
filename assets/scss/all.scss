@@ -2039,6 +2039,61 @@ footer {
 *************** free-course page css  start
 */
 
+/* 
+************single blog css start
+*/
+
+.single-blog-hero {
+  background-image: linear-gradient(rgba(12, 12, 12, 0.5), rgba(20, 20, 20, 0.5)),
+    url(/assets/img/blog-hero.png);
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sbl-comment {
+  position: relative;
+  background-color: #f6f6f6;
+  div {
+    padding: 30px 50px;
+  }
+  img {
+    width: 25px;
+  }
+  .up {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+  .down {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+}
+
+.sbl-soical {
+  img {
+    margin: 0 7px;
+  }
+}
+.sbl-border {
+  border-bottom: 1.2px solid #d3d4d8;
+}
+
+.tags-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 13px 15px;
+}
+.sbl-cat {
+  border-bottom: 1px solid #cfcfcf;
+}
+/* 
+************single blog css end
+*/
+
 @media screen and (max-width: 992px) {
   .single-product-banner p,
   .provided-feat .feat ul li,
@@ -2218,6 +2273,12 @@ footer {
   .fs-30 {
     font-size: $twenty;
   }
+  .fs-18 {
+    font-size: 16px;
+  }
+  .fs-17 {
+    font-size: 14px;
+  }
 
   .input-group {
     flex-direction: column;
@@ -2265,6 +2326,18 @@ footer {
   }
   .slide {
     height: 350px;
+  }
+  .sbl-soical img {
+    width: 35px;
+    margin: 0 3px;
+  }
+  .sbl-share {
+    img {
+      width: 30px;
+    }
+    span {
+      font-size: 16px;
+    }
   }
 }
 
